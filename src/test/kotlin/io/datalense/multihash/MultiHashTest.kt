@@ -3,7 +3,7 @@ package io.datalense.multihash
 import java.security.MessageDigest
 import java.util.*
 import kotlin.test.*
-import org.junit.Test as test
+import org.junit.jupiter.api.Test as test
 
 class MultiHashTest {
     @test fun hashWithSHA256() {
